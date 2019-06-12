@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <cn.artaris.androidknowledge.TouchEvent.test.ViewGroupA
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <cn.artaris.androidknowledge.TouchEvent.test.ViewB
+            android:id="@+id/view"
+            android:layout_width="200dp"
+            android:layout_height="300dp"
+            android:layout_margin="100dp"
+            />
+
+        <cn.artaris.androidknowledge.TouchEvent.test.ViewC
+            android:layout_width="200dp"
+            android:layout_height="300dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="300dp"
+            />
+
+
+    </cn.artaris.androidknowledge.TouchEvent.test.ViewGroupA>
+
+
+    <!--<cn.artaris.androidknowledge.TouchEvent.TouchViewGroup-->
+        <!--android:id="@+id/view_group"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:gravity="center"-->
+        <!--android:layout_height="match_parent">-->
+
+
+        <!--<cn.artaris.androidknowledge.TouchEvent.TouchView-->
+            <!--android:id="@+id/view"-->
+            <!--android:background="@android:color/holo_blue_light"-->
+            <!--android:layout_width="300dp"-->
+            <!--android:layout_height="300dp" />-->
+
+
+
+    <!--</cn.artaris.androidknowledge.TouchEvent.TouchViewGroup>-->
+
+</LinearLayout>
